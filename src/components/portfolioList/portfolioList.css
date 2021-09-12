@@ -1,0 +1,18 @@
+li {
+  font-size: 14px;
+  margin-right: 50px;
+  padding: 7px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  li {
+    margin-right: 20px;
+  }
+}
+li.active {
+  background-color: #15023a;
+  color: #fff;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=portfolioList.css.map */

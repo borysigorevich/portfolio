@@ -1,0 +1,19 @@
+@import '../../global';
+
+li {
+  font-size: 14px;
+  margin-right: 50px;
+  padding: 7px;
+  cursor: pointer;
+
+  @include mobile {
+    margin-right: 20px;
+
+  }
+
+  &.active {
+    background-color: $mainColor;
+    color: #fff;
+    border-radius: 10px;
+  }
+}
